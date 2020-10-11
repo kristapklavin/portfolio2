@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discover adventures</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <section class="popup" id="popup-code">
+      <div class="overlay">
+        <div class="popup-main">
+          <button onclick="togglePopup()" class="close-btn">
+            <i class="material-icons">close</i>
+          </button>
+          <h1>test</h1>
+        </div>
+      </div>
+    </section>
+    <section class="controls">
+      <a href="/project-hotelio.html">
+        <button class="back-btn">
+          <i class="material-icons">arrow_back</i>
+        </button></a
+      >
+
+      <div class="control-bottom">
+        <button onclick="togglePopup()" class="code-btn btn-control">
+          Code
+        </button>
+        <button class="design-btn btn-control">Design</button>
+      </div>
+    </section>
+    <section class="main">
+      <h1>hotelio</h1>
+      <div class="main-wrapper">
+        <div class="heading">
+          <h2>Hey!</h2>
+          <h3>there is new discoveries<br />to be made</h3>
+        </div>
+        <div class="deals">
+          <div class="camping-nights">
+            <div class="picture-camping">
+              <h4>CAMPING NIGHTS</h4>
+              <h5 class="price">$49</h5>
+            </div>
+            <p class="description">
+              Mmm... tea, cozy blanket, fire and songs, what can be better than
+              that on a summer night.
+            </p>
+            <div class="bottom-description">
+              <div class="extras">
+                <img src="img/icons/star.png" />
+                <p>Tea and cozy atmosphere guaranteed</p>
+              </div>
+              <button class="book-btn">BOOK NOW</button>
+            </div>
+          </div>
+          <div class="evening-on-lake">
+            <div class="picture-evening-on-lake">
+              <h4>EVENING ON LAKE</h4>
+              <h5 class="price">$59</h5>
+            </div>
+            <p class="description">
+              Take your loved one on a romantic ride with SUP boards. Trust us,
+              it's a very good conversation starter.
+            </p>
+            <div class="bottom-description-reverse">
+              <div class="extras">
+                <img src="img/icons/heart.png" />
+                <p>Great for couples</p>
+              </div>
+              <button class="book-btn">BOOK NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <h3 class="footer-heading">
+          check out all available<br /><span>adventures</span>
+        </h3>
+        <p class="description">
+          For our special guests we are giving you an amazing 15% discount on
+          your next adventure.
+        </p>
+        <button class="find-btn">FIND ADVENTURE</button>
+        <div class="bottom-footer">
+          <h1 class="footer-logo">hotelio</h1>
+          <p>simply camping.</p>
+        </div>
+      </footer>
+    </section>
+    <script src="popup.js"></script>
+  </body>
+</html>

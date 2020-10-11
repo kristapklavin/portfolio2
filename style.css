@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+header {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+
+#logo {
+  font-size: 19px;
+}
+
+/* Controls */
+.soc-icons {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+}
+
+.soc-icons img {
+  margin-left: 17px;
+  width: 17px;
+}
+
+/* Main project page */
+.hotelio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.hotelio-left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 30px 50px;
+}
+
+.hotelio-left p {
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.hotelio-right {
+  -webkit-box-flex: 3;
+      -ms-flex: 3 2 80rem;
+          flex: 3 2 80rem;
+  background-image: url(img/mountains.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hotelio-right h2 {
+  font-family: Poppins;
+  font-size: 90px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 90px;
+}
+
+.hotelio-right h4 {
+  font-size: 17px;
+  line-height: 20spx;
+  color: #fff;
+  font-weight: 700;
+}
+
+.hotelio-right button {
+  background: #fff;
+  border: 3px solid #fff;
+  color: #000;
+  font-size: 17px;
+  padding: 13px 40px;
+  font-weight: 600;
+  margin-top: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+.hotelio-right button:hover {
+  background-color: transparent;
+  color: #fff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+/*# sourceMappingURL=style.css.map */

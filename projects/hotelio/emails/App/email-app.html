@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotelio app - Kristaps Kļaviņš</title>
+    <link rel="stylesheet" href="style.css " />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <section class="controls">
+      <a href="projects/hotelio/project-hotelio.html">
+        <button class="back-btn">
+          <i class="material-icons">arrow_back</i>
+        </button></a
+      >
+
+      <div class="control-bottom">
+        <button onclick="togglePopup()" class="code-btn btn-control">
+          Code
+        </button>
+        <button class="design-btn btn-control">Design</button>
+      </div>
+    </section>
+    <section class="main">
+      <h1 id="logo">hotelio</h1>
+      <div class="main-wrapper">
+        <img class="hotelio-tent" src="img/hotelio-tent.png" />
+        <div class="main-content">
+          <div class="heading">
+            <h2>CAMPING MADE<br />SIMPLE</h2>
+            <button class="explore-btn">EXPLORE</button>
+            <p>just few simple steps to memorable<br />adventure</p>
+          </div>
+          <div class="app">
+            <img class="phone" src="img/iphone-hotelio.png" />
+            <div class="points">
+              <div class="location point">
+                <img class="icon" src="img/icons/map.png" />
+                <div class="points-text">
+                  <h3 class="points-heading">choose location</h3>
+                  <p class="points-p">
+                    Vestibulum cursus, nunc vitae tincidunt lobortis, lorem
+                    turpis consequat quam, quis tincidunt consequat
+                  </p>
+                </div>
+              </div>
+              <div class="adventure point">
+                <img class="icon" src="img/icons/binoculars.png" />
+                <div class="points-text">
+                  <h3 class="points-heading">choose adventure</h3>
+                  <p class="points-p">
+                    Vestibulum cursus, nunc vitae tincidunt lobortis, lorem
+                    turpis consequat quam, quis tincidunt consequat
+                  </p>
+                </div>
+              </div>
+              <div class="discovery point">
+                <img class="icon" src="img/icons/check.png" />
+                <div class="points-text">
+                  <h3 class="points-heading">make a discovery</h3>
+                  <p class="points-p">
+                    Vestibulum cursus, nunc vitae tincidunt lobortis, lorem
+                    turpis consequat quam, quis tincidunt consequat
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img class="lines" src="img/lines.png" />
+        </div>
+      </div>
+      <footer>
+        <h3>start making<br />memories now</h3>
+        <div class="badges">
+          <img class="download-badge" src="img/google-play-badge.png" />
+          <img class="download-badge" src="img/app-store-badge.png" />
+        </div>
+        <div class="bottom-footer">
+          <h1 class="footer-logo">hotelio</h1>
+          <p>simply camping.</p>
+        </div>
+      </footer>
+    </section>
+    <script src="popup.js"></script>
+  </body>
+</html>

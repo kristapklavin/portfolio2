@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f6f6;
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+}
+
+/* Navigation buttons */
+.back-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: #fff;
+  border: 3px solid #fff;
+  border-radius: 40px;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: transparent;
+}
+
+.control-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.btn-control {
+  background-color: #fff;
+  border: 4px solid #fff;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  padding: 13px 21px;
+  cursor: pointer;
+}
+
+.btn-control:hover {
+  background-color: transparent;
+}
+
+/* Main email context */
+.main {
+  background-color: #fff;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+h1 {
+  color: #fe5303;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.main-wrapper {
+  padding: 0 67px;
+  margin: 0 auto;
+}
+
+.heading {
+  padding: 40px 0;
+}
+
+.heading h2 {
+  font-size: 42px;
+  color: #fe5303;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 25px;
+}
+
+.deals {
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
+
+.camping-nights {
+  margin-bottom: 90px;
+}
+
+.picture-camping {
+  background-image: url(img/camping-nights.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+  position: relative;
+}
+
+.picture-evening-on-lake {
+  background-image: url(img/evening-on-lake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+  position: relative;
+}
+
+.bottom-description-reverse {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bottom-description-reverse .extras {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.bottom-description-reverse .book-btn {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+h4,
+.price {
+  position: absolute;
+}
+
+h4 {
+  text-align: center;
+  bottom: 20px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  left: 50%;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.price {
+  background-color: #fe5303;
+  padding: 10px 15px;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  right: 25px;
+  top: 25px;
+}
+
+.description {
+  font-size: 13px;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px 0;
+  font-weight: 400;
+}
+
+.bottom-description {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.extras {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.extras img {
+  width: 19px;
+}
+
+.extras p {
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+.book-btn {
+  background-color: #fe5303;
+  border: 3px solid #fe5303;
+  font-size: 11px;
+  font-weight: 800;
+  color: #fff;
+  padding: 12px 27px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  background-color: #fff;
+  color: #fe5303;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+footer p {
+  width: 60% !important;
+}
+
+.footer-heading {
+  margin-bottom: 15px;
+}
+
+.footer-heading span {
+  color: #fe5303;
+}
+
+.find-btn {
+  background-color: #fe5303;
+  border: 3px solid #fe5303;
+  font-size: 11px;
+  font-weight: 800;
+  color: #fff;
+  padding: 12px 87px;
+  border-radius: 30px;
+  margin-bottom: 150px;
+  cursor: pointer;
+}
+
+.find-btn:hover {
+  background-color: #fff;
+  color: #fe5303;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.bottom-footer {
+  background-color: #eeeeee;
+  padding: 20px 0;
+}
+
+.bottom-footer p {
+  color: #909090;
+  font-weight: 800;
+  font-size: 8px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 8px;
+}
+
+.footer-logo {
+  color: #bababa;
+  padding: 0;
+  line-height: 24px;
+}
+
+.popup {
+  z-index: 1;
+  display: none;
+}
+
+.popup .overlay {
+  position: fixed;
+  background-color: rgba(78, 78, 78, 0.198);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.popup-main {
+  background-color: #fff;
+  z-index: 3;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 80px;
+  position: relative;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.popup.active {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
